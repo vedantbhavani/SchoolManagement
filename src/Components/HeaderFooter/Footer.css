@@ -1,0 +1,46 @@
+.footer-container{
+    margin-top: 10vh;
+    background-color: #E6E6E7;
+}
+.upperfooter{
+    display: flex;
+    justify-content: space-around;
+    gap: 13px;
+    padding: 10vh 5vw 1vh;
+}
+.scrtitle{
+    width: fit-content;
+    font-size: x-large;
+}
+.firstcol img{
+    width: 8vw;
+    border-radius: 10px;
+    margin:5vh 0;
+}
+.firstcol{
+    width: 30vw;
+}
+.scdata{
+    margin-top: 3vh;
+}
+.scdata a{
+    text-decoration: none;
+    color: rgb(61, 54, 54);
+    display: block;
+    margin-top: 3vh;
+}
+.scdata a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.footerimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+.footerimg img{
+    width: 2vw;
+}
+.lowerfooter{
+    padding: 3vh 7.5vw;
+}
