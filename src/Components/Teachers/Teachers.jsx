@@ -9,7 +9,6 @@ const Teachers = () => {
             </div>
             <div className="Teachercontainer">
                 <div className="teacherdata">
-
                     {teacherdata.map((currElem) => {
                         return (
                             <>

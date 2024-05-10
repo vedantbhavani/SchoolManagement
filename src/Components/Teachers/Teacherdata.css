@@ -9,9 +9,10 @@
     flex-wrap: wrap;
     width: 75vw;
     height: 147vh;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     justify-content: space-evenly;
-    transform: translateY(-147vh);
+    transform: translateY(0vh);
+    /* transform: translateY(-147vh); */
 
 }
 .teachercard{
@@ -23,6 +24,7 @@
     border-radius: 3vh;
 }
 .tc_images{
+    border-radius: 1vh;
     margin-top: 1vh;
     width: 25vh;
 }
