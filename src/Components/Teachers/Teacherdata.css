@@ -3,24 +3,23 @@
     width: 75vw;
     height: 147vh;
     margin: 0 auto ;
+    overflow-x: hidden;
 }
 .teacherdata{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 75vw;
-    height: 147vh;
-    overflow-y: hidden;
+    height: 146vh;
     justify-content: space-evenly;
-    transform: translateY(0vh);
-    /* transform: translateY(-147vh); */
-
+    transform: translateX(0);
 }
 .teachercard{
     width: 20vw;
     height: 45vh;
-    background-color: antiquewhite;
+    background-color: rgb(240, 236, 232);
     text-align: center;
-    margin: 2vh 0;
+    margin: 0vh 2.5vw;
     border-radius: 3vh;
 }
 .tc_images{
