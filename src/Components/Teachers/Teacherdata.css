@@ -1,0 +1,28 @@
+.Teachercontainer{
+    border: 1px solid;
+    width: 75vw;
+    height: 147vh;
+    margin: 0 auto ;
+}
+.teacherdata{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: 147vh;
+    /* overflow-y: hidden; */
+    justify-content: space-evenly;
+    transform: translateY(-147vh);
+
+}
+.teachercard{
+    width: 20vw;
+    height: 45vh;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 2vh 0;
+    border-radius: 3vh;
+}
+.tc_images{
+    margin-top: 1vh;
+    width: 25vh;
+}

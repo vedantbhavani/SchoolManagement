@@ -1,6 +1,33 @@
+/* About page Start here */
 .aboutmainimg{
-    width: 70%;
+    width: 80%;
+    height: 60vh;
     margin: 0 auto;
     display: block;
     margin-top: 5vh;
 }
+.aboutdesc p{
+    width: 70vw;
+    margin: 0 auto;
+    line-height: 2;
+    font-size: large;
+    font-weight: bold;
+}
+.aboutcontainer a{
+    text-decoration: none;
+    color: yellow;
+    background-color: rgb(61, 54, 54);
+    padding: 2vh 2vw;
+    border-radius: 2vh;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+    margin-top: 2vh;
+}
+.aboutcontainer a:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* About page will be finish here */

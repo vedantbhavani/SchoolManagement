@@ -16,8 +16,8 @@ const Navbar = (props) => {
                         <div className="nav-lists">
                             
                             <Link to={"/"} >Home</Link>
-                            <Link to={"/Gallery"} >Gallery</Link>
-                            <Link to={"/Teachers"} >Teachers</Link>
+                            <Link to={"/gallery"} >Gallery</Link>
+                            <Link to={"/teachers"} >Teachers</Link>
                             <Link to={"/about"}>About</Link>
                             <Link to={"/contact"} >Contact Us</Link>
                             <Link to={"/blogs"} >Blogs</Link>
