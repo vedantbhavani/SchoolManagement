@@ -58,13 +58,16 @@
     width: 3vw;
 }
 .dots{
-    width: 6px;
-    height: 6px;
-    background-color: rgb(90, 76, 76);
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
+    border: 2px solid gray;
+}
+.dots:nth-child(1){
+    background-color: gray;
 }
 .innerbtns{
-    margin-top: 3vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: space-evenly;
     width: 19vw;

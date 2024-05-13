@@ -12,19 +12,86 @@ const Teachers = () => {
     const dot5 = useRef(null)
     const dot6 = useRef(null)
     const dot7 = useRef(null)
-
+    const newfunc = () => {
+        switch (index) {
+            case 0:
+                console.log("index 0 is printed");
+                dot7.current.style.backgroundColor = "transparent"
+                dot1.current.style.backgroundColor = "gray"
+                dot2.current.style.backgroundColor = "transparent"
+                break;
+            case 1:
+                console.log("index 1 is printed");
+                dot1.current.style.backgroundColor = "transparent"
+                dot2.current.style.backgroundColor = "gray"
+                dot3.current.style.backgroundColor = "transparent"
+                break;
+            case 2:
+                console.log("index 2 is printed");
+                dot2.current.style.backgroundColor = "transparent"
+                dot3.current.style.backgroundColor = "gray"
+                dot4.current.style.backgroundColor = "transparent"
+                break;
+            case 3:
+                console.log("index 3 is printed");
+                dot3.current.style.backgroundColor = "transparent"
+                dot4.current.style.backgroundColor = "gray"
+                dot5.current.style.backgroundColor = "transparent"
+                break;
+            case 4:
+                console.log("index 4 is printed");
+                dot4.current.style.backgroundColor = "transparent"
+                dot5.current.style.backgroundColor = "gray"
+                dot6.current.style.backgroundColor = "transparent"
+                break;
+            case 5:
+                console.log("index 5 is printed");
+                dot5.current.style.backgroundColor = "transparent"
+                dot6.current.style.backgroundColor = "gray"
+                dot7.current.style.backgroundColor = "transparent"
+                break;
+            case 6:
+                console.log("index 6 is printed");
+                dot6.current.style.backgroundColor = "transparent"
+                dot7.current.style.backgroundColor = "gray"
+                dot1.current.style.backgroundColor = "transparent"
+                dot2.current.style.backgroundColor = "transparent"
+                break;
+            case 7:
+                console.log("index 7 is printed");
+                dot1.current.style.backgroundColor = "gray"
+                dot7.current.style.backgroundColor = "transparent"
+                dot2.current.style.backgroundColor = "transparent"
+                dot3.current.style.backgroundColor = "transparent"
+                dot4.current.style.backgroundColor = "transparent"
+                dot5.current.style.backgroundColor = "transparent"
+                dot6.current.style.backgroundColor = "transparent"
+                dot7.current.style.backgroundColor = "transparent"
+                break;
+                
+                default:
+                    console.log("none print");
+                    break;
+                }
+                
+            }
+            
+            if(index == 5 ){
+                dot7.current.style.backgroundColor = "gray"
+                console.log("genius");
+    }
     const gopreviosslide = () => {
-        console.log("Change");
         sliderref.current.style.transform = `translateX(-${(index - 2) * 75}vw)`
         index--
+        newfunc()
     }
+    
     const getfirstside = () => {
         sliderref.current.style.transform = `translateX(${0}vw)`
         index = 1
     }
 
     const gonextslide = () => {
-        console.log("Change");
         sliderref.current.style.transform = `translateX(-${index * 75}vw)`
         index++
     }
@@ -33,6 +100,7 @@ const Teachers = () => {
         index = teacherdata.length - 56;
     }
     const nextslide = () => {
+        newfunc()
         index < teacherdata.length - 56 ? gonextslide() : getfirstside()
     }
     const previosslide = () => {
@@ -82,7 +150,6 @@ const Teachers = () => {
                 </div>
 
                 <button className="btns next-slide" onClick={nextslide}> <img src="/src/Components/Teachers/arrow.png" className="btnimg" alt="" /></button>
-
             </div>
         </>
     )
