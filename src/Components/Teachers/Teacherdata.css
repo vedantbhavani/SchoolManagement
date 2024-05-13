@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 75vw;
+    transition: 1s ease-in-out;
     height: 146vh;
     justify-content: space-evenly;
     transform: translateX(0);
@@ -26,4 +27,33 @@
     border-radius: 1vh;
     margin-top: 1vh;
     width: 25vh;
+}
+.pre-slide{
+    transform: rotate(170deg);
+}
+.next-slide{
+    transform: rotate(10deg);
+}
+.Allbtns{
+    margin: 2vh auto;
+    display:flex;
+    width: fit-content;
+    justify-content: space-between;
+    width: 39vw;
+}
+.innerbtndata{
+    width: 3vw;
+    height: 7vh;
+    border-radius: 3vh;
+    border: none;
+    margin: 0 0.5vw;
+}
+.btns{
+    width: 4vw;
+    border-radius: 50%;
+    height: 10vh;
+    border: none;
+}
+.btnimg{
+    width: 4vw;
 }

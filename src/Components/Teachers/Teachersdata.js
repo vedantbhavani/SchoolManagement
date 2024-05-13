@@ -304,6 +304,16 @@ let teacherdata = [
         "name": "Melissa White",
         "subject": "Sociology",
         "experience": 11
+    },
+    {
+        "name": "Samuel Young",
+        "subject": "Political Science",
+        "experience": 9
+    },
+    {
+        "name": "Melissa White",
+        "subject": "Sociology",
+        "experience": 11
     }
 
 ]
