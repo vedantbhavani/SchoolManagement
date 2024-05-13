@@ -4,15 +4,14 @@ import { useRef } from "react";
 
 const Teachers = () => {
     let index = 1;
-    console.log(teacherdata.length - 56);
     const sliderref = useRef(null);
-    const btn1 = useRef(null)
-    const btn2 = useRef(null)
-    const btn3 = useRef(null)
-    const btn4 = useRef(null)
-    const btn5 = useRef(null)
-    const btn6 = useRef(null)
-    const btn7 = useRef(null)
+    const dot1 = useRef(null)
+    const dot2 = useRef(null)
+    const dot3 = useRef(null)
+    const dot4 = useRef(null)
+    const dot5 = useRef(null)
+    const dot6 = useRef(null)
+    const dot7 = useRef(null)
 
     const gopreviosslide = () => {
         console.log("Change");
@@ -63,7 +62,7 @@ const Teachers = () => {
             <div className="Allbtns">
                 <button className="btns pre-slide" onClick={previosslide}> <img src="/src/Components/Teachers/arrow.png" className="btnimg" alt="" /></button>
 
-                <div className="innerbtns">
+                {/* <div className="innerbtns">
                     <button className="innerbtndata innerbtn1" ref={btn1} >1</button>
                     <button className="innerbtndata innerbtn2" ref={btn2} >2</button>
                     <button className="innerbtndata innerbtn3" ref={btn3} >3</button>
@@ -71,6 +70,15 @@ const Teachers = () => {
                     <button className="innerbtndata innerbtn5" ref={btn5} >5</button>
                     <button className="innerbtndata innerbtn6" ref={btn6} >6</button>
                     <button className="innerbtndata innerbtn7" ref={btn7} >7</button>
+                </div> */}
+                <div className="innerbtns">
+                    <div className="dots" ref={dot1}></div>
+                    <div className="dots" ref={dot2}></div>
+                    <div className="dots" ref={dot3}></div>
+                    <div className="dots" ref={dot4}></div>
+                    <div className="dots" ref={dot5}></div>
+                    <div className="dots" ref={dot6}></div>
+                    <div className="dots" ref={dot7}></div>
                 </div>
 
                 <button className="btns next-slide" onClick={nextslide}> <img src="/src/Components/Teachers/arrow.png" className="btnimg" alt="" /></button>

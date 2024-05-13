@@ -39,7 +39,7 @@
     display:flex;
     width: fit-content;
     justify-content: space-between;
-    width: 39vw;
+    width: 19vw;
 }
 .innerbtndata{
     width: 3vw;
@@ -49,11 +49,23 @@
     margin: 0 0.5vw;
 }
 .btns{
-    width: 4vw;
+    width: 3vw;
     border-radius: 50%;
-    height: 10vh;
+    height: 7vh;
     border: none;
 }
 .btnimg{
-    width: 4vw;
+    width: 3vw;
+}
+.dots{
+    width: 6px;
+    height: 6px;
+    background-color: rgb(90, 76, 76);
+    border-radius: 50%;
+}
+.innerbtns{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 19vw;
 }
