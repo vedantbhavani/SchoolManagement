@@ -8,6 +8,7 @@ import About from './About'
 import Teachers from './Components/Teachers_Gallary/Teachers'
 import Blog from './Blogs'
 import Gallery from './Components/Teachers_Gallary/Gallery'
+import Contact from './Contact'
 
 
 function App() {
@@ -68,6 +69,17 @@ function App() {
                 headerdesc="We change many staff in 100 years. But all are Supportive."
               />
               <Gallery/>
+            </>}
+          />
+
+          <Route
+            path='/contact'
+            element={<>
+              <Navbar
+                headertitle="Contact Us"
+                headerdesc="If you are join with our Journey you can join us"
+              />
+              <Contact/>
             </>}
           />
 

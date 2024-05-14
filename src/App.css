@@ -137,3 +137,58 @@
 }
 
 /* Blog page will finish here */
+
+/* Contact page will start here */
+
+.contact_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input_contact_container{
+    width: 40vw;
+    /* margin: 0 auto; */
+    background-color:aliceblue;
+    margin-top: 2vh;
+    padding: 2vh;
+}
+.maps{
+    width: 40vw;
+    margin-top: 2vh;
+}
+.input_contact_container p{
+    margin-bottom: 0;
+    font-size: large;
+}
+.input_contact_container input{
+    outline: none;
+    font-size: 3vh;
+}
+.names{
+    display: flex;
+    justify-content:space-evenly;
+}
+.email input{
+    width: 30vw;
+}
+.email{
+    margin-left: 2.2vw;
+    margin-top: 3vh;
+}
+.numbers input{
+    width: 30vw;
+}
+.numbers{
+    margin-left: 2.2vw;
+    margin-top: 3vh;
+}
+.address{
+    margin-left: 2.2vw;
+    margin-top: 3vh;
+}
+.address textarea{
+    resize: none;
+    outline: none;
+    font-size: 3vh;
+}
+
+/* Contact page will finish here */
