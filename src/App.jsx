@@ -6,6 +6,8 @@ import Footer from './Components/HeaderFooter/Footer'
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import About from './About'
 import Teachers from './Components/Teachers/Teachers'
+import Blog from './Blogs'
+
 
 function App() {
 
@@ -22,7 +24,6 @@ function App() {
         headertitle="Welcome To My VS School."
         /> 
         <Home/>
-        <Footer/> 
         </>}
         />
 
@@ -45,6 +46,17 @@ function App() {
         headerdesc = "We change many staff in 100 years. But all are Supportive." 
         /> 
         <Teachers/>
+        </>}
+        />
+
+        <Route 
+        path='/blogs' 
+        element={<> 
+        <Navbar 
+        headertitle="Blogs"
+        headerdesc = "Our enjoyable movement will capture in our Blogs" 
+        /> 
+        <Blog/>
         </>}
         />
 

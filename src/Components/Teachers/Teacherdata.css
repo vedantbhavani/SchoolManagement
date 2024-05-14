@@ -1,5 +1,5 @@
 .Teachercontainer{
-    border: 1px solid;
+    
     width: 75vw;
     height: 147vh;
     margin: 0 auto ;
@@ -17,22 +17,30 @@
 }
 .teachercard{
     width: 20vw;
+    filter: drop-shadow(1px 1px 10px);
     height: 45vh;
     background-color: rgb(240, 236, 232);
-    text-align: center;
+    text-align: start;
     margin: 0vh 2.5vw;
     border-radius: 3vh;
 }
 .tc_images{
     border-radius: 1vh;
+    width: 11vw;
+    height: 29vh;
+    display: block;
+    margin: 0 auto;
     margin-top: 1vh;
-    width: 25vh;
+}
+.tc_data{
+    margin-left: 1vw;
+    margin-bottom: 0.1vh;
 }
 .pre-slide{
-    transform: rotate(170deg);
+    transform: rotate(180deg);
 }
 .next-slide{
-    transform: rotate(10deg);
+    transform: rotate(0deg);
 }
 .Allbtns{
     margin: 2vh auto;

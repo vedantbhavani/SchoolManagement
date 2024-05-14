@@ -118,9 +118,9 @@ const Teachers = () => {
                             <>
                                 <div className="teachercard">
                                     <img className="tc_images" src="https://picsum.photos/200" alt="" />
-                                    <p className="tc_data tc_names">Name : <span className="innername">{currElem.name}</span></p>
-                                    <p className="tc_data tc_subject">Subject : <span className="innersubject">{currElem.subject}</span></p>
-                                    <p className="tc_data tc_experience">Experience : <span className="innerexp">{currElem.experience}</span></p>
+                                    <p className="tc_data tc_names"><b> Name : </b><span className="innername">{currElem.name}</span></p>
+                                    <p className="tc_data tc_subject"><b> Subject :</b> <span className="innersubject">{currElem.subject}</span></p>
+                                    <p className="tc_data tc_experience"><b> Experience : </b><span className="innerexp">{currElem.experience}</span></p>
                                 </div>
                             </>
                         )
