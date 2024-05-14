@@ -4,7 +4,6 @@ import Slider from './Slider'
 const Home = () => {
     return(
         <>
-        
         <div className="home-container">
             <div className="box1">
                 <img className='box1img' src="https://images.news18.com/ibnlive/uploads/2016/09/boman-iranai.jpg" alt="Viru Viru Sahastrabudhhe" />
@@ -43,9 +42,9 @@ const Home = () => {
                 <div className="gallery-items">
                     <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201905/TaareZameenPar.jpeg" alt="" />
                     
-                    <img src="https://im.rediff.com/movies/2019/jul/09teacher1.jpg?w=670&h=900" alt="" />
+                    <img src="https://im.rediff.com/movies/2019/jul/09teacher1.jpg" alt="" />
 
-                    <img src="https://im.rediff.com/movies/2019/jul/09teacher8.jpg?w=670&h=900" alt="" />
+                    <img src="https://im.rediff.com/movies/2019/jul/09teacher8.jpg" alt="" />
 
                     <img src="https://im.rediff.com/movies/2019/jul/09teacher11.jpg" alt="" />
 

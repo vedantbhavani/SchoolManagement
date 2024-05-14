@@ -3,67 +3,89 @@ import Home from './Components/Homes/Home'
 import Navbar from './Components/HeaderFooter/Navbar'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Footer from './Components/HeaderFooter/Footer'
-import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './About'
-import Teachers from './Components/Teachers/Teachers'
+import Teachers from './Components/Teachers_Gallary/Teachers'
 import Blog from './Blogs'
+import Gallery from './Components/Teachers_Gallary/Gallery'
 
 
 function App() {
 
   return (
     <>
-    <BrowserRouter>
-      {/* <Navbar/> */}
-    <Routes>  
+      <BrowserRouter>
+        {/* <Navbar/> */}
+        <Routes>
 
-        <Route 
-        path='/' 
-        element={<> 
-        <Navbar 
-        headertitle="Welcome To My VS School."
-        /> 
-        <Home/>
-        </>}
-        />
+          <Route
+            path='/'
+            element={<>
+              <Navbar
+                headertitle="Welcome To My VS School."
+              />
+              <Home />
+            </>}
+          />
 
-        <Route 
-        path='/about' 
-        element={<> 
-        <Navbar 
-        headertitle="About Us"
-        headerdesc = "This school is 99 years old. We are celebrate a 100 years. Next year We are make a new School after celebration." 
-        /> 
-        <About/> 
-        </>}
-        />
+          <Route
+            path='/home'
+            element={<>
+              <Navbar
+                headertitle="Welcome To My VS School."
+              />
+              <Home />
+            </>}
+          />
 
-        <Route 
-        path='/teachers' 
-        element={<> 
-        <Navbar 
-        headertitle="Our Best Facultys"
-        headerdesc = "We change many staff in 100 years. But all are Supportive." 
-        /> 
-        <Teachers/>
-        </>}
-        />
+          <Route
+            path='/about'
+            element={<>
+              <Navbar
+                headertitle="About Us"
+                headerdesc="This school is 99 years old. We are celebrate a 100 years. Next year We are make a new School after celebration."
+              />
+              <About />
+            </>}
+          />
 
-        <Route 
-        path='/blogs' 
-        element={<> 
-        <Navbar 
-        headertitle="Blogs"
-        headerdesc = "Our enjoyable movement will capture in our Blogs" 
-        /> 
-        <Blog/>
-        </>}
-        />
+          <Route
+            path='/teachers'
+            element={<>
+              <Navbar
+                headertitle="Our Best Facultys"
+                headerdesc="We change many staff in 100 years. But all are Supportive."
+              />
+              <Teachers />
+            </>}
+          />
+
+          <Route
+            path='/gallery'
+            element={<>
+              <Navbar
+                headertitle="Our Best Facultys"
+                headerdesc="We change many staff in 100 years. But all are Supportive."
+              />
+              <Gallery/>
+            </>}
+          />
+
+          <Route
+            path='/blogs'
+            element={<>
+              <Navbar
+                headertitle="Blogs"
+                headerdesc="Our enjoyable movement will capture in our Blogs"
+              />
+              <Blog />
+            </>}
+          />
 
 
-    </Routes>
-        <Footer/>
-        </BrowserRouter>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

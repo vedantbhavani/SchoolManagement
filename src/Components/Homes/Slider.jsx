@@ -6,9 +6,7 @@ import images from "./images"
 const Slider = () => {
     let index = 1;
     const imgslider = useRef(null)
-    console.log(images.length);
     const rightside = () => {
-        console.log("click on right side ");
         imgslider.current.style.transform = `translateX(-${index * 75}vw)`
         index++
     }

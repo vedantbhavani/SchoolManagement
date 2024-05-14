@@ -39,14 +39,13 @@
 }
 .nav-lists{
     margin: auto 0;
-    margin-left:43vw ;
+    margin-right: 8vw;
 }
 .nav-lists a{
     color: rgb(200, 184, 184);
     text-decoration: none;
     margin: 1vh 1vw;
     font-size: large;
-    /* padding-top: 4px; */
 }
 .nav-lists a{
     font-family: "Ubuntu";
