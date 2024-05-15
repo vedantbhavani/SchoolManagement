@@ -26,7 +26,8 @@ function App() {
               displayon = ""
               headertitle="Welcome To My VS School."
               />
-              <Home />
+              <Home activeClassName = "selected"/>
+
             </>}
           />
 
@@ -37,7 +38,7 @@ function App() {
               displayon = ""
                 headertitle="Welcome To My VS School."
               />
-              <Home />
+              <Home  activeClassName = "selected"/>
             </>}
           />
 
@@ -49,7 +50,7 @@ function App() {
                 headertitle="About Us"
                 headerdesc="This school is 99 years old. We are celebrate a 100 years. Next year We are make a new School after celebration."
                 />
-              <About />
+              <About  activeClassName = "selected"/>
             </>}
           />
 
@@ -61,7 +62,7 @@ function App() {
               headertitle="Our Best Facultys"
               headerdesc="We change many staff in 100 years. But all are Supportive."
               />
-              <Teachers />
+              <Teachers  activeClassName = "selected"/>
             </>}
           />
 

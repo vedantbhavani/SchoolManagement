@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
     return(
@@ -26,11 +26,11 @@ const Footer = () => {
                     <div className="thiredcol">
                         <h3 className="scrtitle">Links</h3>
                         <div className="scdata">
-                            <Link to={"/Gallery"} >Gallery</Link>
-                            <Link to={"/Teachers"} >Teachers</Link>
-                            <Link to={"/about"}>About</Link>
-                            <Link to={"/contact"} >Contact Us</Link>
-                            <Link to={"/blogs"} >Blogs</Link>
+                            <NavLink to={"/Gallery"} >Gallery</NavLink>
+                            <NavLink to={"/Teachers"} >Teachers</NavLink>
+                            <NavLink to={"/about"}>About</NavLink>
+                            <NavLink to={"/contact"} >Contact Us</NavLink>
+                            <NavLink to={"/blogs"} >Blogs</NavLink>
                         </div>
                     </div>
                     <div className="fourthcol">
