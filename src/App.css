@@ -28,8 +28,6 @@
     transform: scale(1.1);
 }
 
-
-
 /* About page will be finish here */
 
 /* Blog page will start here */
@@ -189,6 +187,17 @@
     resize: none;
     outline: none;
     font-size: 3vh;
+}
+.submitbtn{
+    margin: 2vh auto;
+    display: block;
+    padding: 1vh 1.5vw;
+    background-color: #0193DC;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(247, 243, 243);
+    font-weight: bold;
+
 }
 
 /* Contact page will finish here */

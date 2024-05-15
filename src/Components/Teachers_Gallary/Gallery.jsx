@@ -100,13 +100,12 @@ const Gallery = () => {
     }
     return (
         <>
-            <div className="Teachercontainer">
-                <div className="teacherdata" ref={sliderref}>
+            <div className="Gallerycontainer">
+                <div className="teacherdata2" ref={sliderref}>
                     {teacherdata.map((currElem) => {
                         return (
                             <>
                                 <div className="teachercard2">
-                                    {/* <img className="tc_images" src="https://source.unsplash.com/random" alt="" /> */}
                                     <img className="gl_images" src={currElem.image} alt="" />
                                 </div>
                             </>

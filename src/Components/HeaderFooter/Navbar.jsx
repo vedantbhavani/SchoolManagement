@@ -6,16 +6,15 @@ import { Link } from 'react-router-dom'
 const Navbar = (props) => {
     const activepage = window.location
     const linkref = useRef(activepage)
-    console.log(linkref.current);
     
     return (
         <div className='nav-container'>
             <div className="fullheader">
-                <div className="upperheader">
+                <div style={{display:`${props.displayon}`}} className="upperheader">
                 </div>
                 <div className="lowerheader">
                     <div className="upperlower">
-                        <div >
+                        <div>
                             <img className="main-logo" src="https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg?size=626&ext=jpg&ga=GA1.1.2119131876.1701829576&semt=ais" alt="" />
                         </div>
                         <div className="nav-lists">
@@ -27,7 +26,7 @@ const Navbar = (props) => {
                             <Link ref={linkref} to={"/blogs"} >Blogs</Link>
                         </div>
                     </div>
-                    <div className="lowerlower">
+                    <div className="lowerlower"  style={{display:`${props.displayon}`}}>
                         <p className='title-head'>VS SCHOOL</p>
                         <p className='title-center-heading'>{props.headertitle}</p>
                         <p className='title-center-desc'>{props.headerdesc}</p>

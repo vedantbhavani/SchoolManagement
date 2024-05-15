@@ -1,6 +1,6 @@
 import teacherdata from "./Teachersdata";
 import './Teacherdata.css'
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const Teachers = () => {
     let index = 1;
@@ -60,29 +60,28 @@ const Teachers = () => {
                 dot6.current.style.backgroundColor = "transparent"
                 dot7.current.style.backgroundColor = "transparent"
                 break;
-                
-                default:
-                    console.log("none print");
-                    break;
-                }
-                
-            }
-            
-            if(index == 5 ){
-                dot7.current.style.backgroundColor = "gray"
-                console.log("genius");
+
+            default:
+                console.log("none print");
+                break;
+        }
+
+    }
+
+    if (index == 5) {
+        dot7.current.style.backgroundColor = "gray"
+        console.log("genius");
     }
     const gopreviosslide = () => {
         sliderref.current.style.transform = `translateX(-${(index - 2) * 75}vw)`
         index--
         newfunc()
     }
-    
+
     const getfirstside = () => {
         sliderref.current.style.transform = `translateX(${0}vw)`
         index = 1
     }
-
     const gonextslide = () => {
         sliderref.current.style.transform = `translateX(-${index * 75}vw)`
         index++
@@ -98,26 +97,56 @@ const Teachers = () => {
     const previosslide = () => {
         index <= 1 ? maxrightside() : gopreviosslide()
     }
+
+    const Displayitems = (searchbar) => {
+        searchbar.map((currElem) => {
+            let { image, name, subject, experience } = currElem
+            return (
+                `
+                    <div className="teachercard">
+                        <img className="tc_images" src=${image} alt="" />
+                        <p className="tc_data tc_names"><b> Name : </b><span className="innername">${name}</span></p>
+                        <p className="tc_data tc_subject"><b> Subject :</b> <span className="innersubject">${subject}</span></p>
+                        <p className="tc_data tc_experience"><b> Experience : </b><span className="innerexp">${experience}</span></p>
+                    </div>
+                `
+            )
+        })
+    }
+    const searchref = useRef(null)
+    const [searchinp, setsearchinp] = useState("");
+    const inputchange = (e) => {
+        setsearchinp(e.target.value)
+        console.log(searchinp);
+    }
+    const searchdata = teacherdata.filter((currElem) => {
+        return (currElem.name.toLocaleLowerCase().includes(searchinp.toLocaleLowerCase()))
+    })
+    Displayitems(searchdata)
+
+
     return (
         <>
             <div className="searchbar">
-                <input type="text" placeholder="Search Teacher" />
+                <input type="text" ref={searchref} placeholder="Search Teacher" onChange={inputchange} value={searchinp} />
             </div>
             <div className="Teachercontainer">
                 <div className="teacherdata" ref={sliderref}>
-                    {teacherdata.map((currElem) => {
-                        return (
+                    {/* <Displayitems /> */}
+                    {
+                        teacherdata.map((currElem) => {
+                            return (
                             <>
                                 <div className="teachercard">
                                     <img className="tc_images" src={currElem.image} alt="" />
-                                    {/* <img className="tc_images" src="https://picsum.photos/200" alt="" /> */}
                                     <p className="tc_data tc_names"><b> Name : </b><span className="innername">{currElem.name}</span></p>
                                     <p className="tc_data tc_subject"><b> Subject :</b> <span className="innersubject">{currElem.subject}</span></p>
                                     <p className="tc_data tc_experience"><b> Experience : </b><span className="innerexp">{currElem.experience}</span></p>
                                 </div>
                             </>
                         )
-                    })}
+                    })
+                    }
                 </div>
             </div>
             <div className="Allbtns">

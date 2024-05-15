@@ -25,6 +25,7 @@ const Contact = () =>  {
                         <p>Address</p>
                         <textarea name="textarea" id="textarea" cols="40" rows="6" placeholder="Enter your address here"></textarea>
                     </div>
+                    <button type="submit" className="submitbtn">Submit</button>
                 </div>
 
                 <div className="maps">

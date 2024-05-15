@@ -23,7 +23,8 @@ function App() {
             path='/'
             element={<>
               <Navbar
-                headertitle="Welcome To My VS School."
+              displayon = ""
+              headertitle="Welcome To My VS School."
               />
               <Home />
             </>}
@@ -33,6 +34,7 @@ function App() {
             path='/home'
             element={<>
               <Navbar
+              displayon = ""
                 headertitle="Welcome To My VS School."
               />
               <Home />
@@ -43,9 +45,10 @@ function App() {
             path='/about'
             element={<>
               <Navbar
+                displayon = ""
                 headertitle="About Us"
                 headerdesc="This school is 99 years old. We are celebrate a 100 years. Next year We are make a new School after celebration."
-              />
+                />
               <About />
             </>}
           />
@@ -54,8 +57,9 @@ function App() {
             path='/teachers'
             element={<>
               <Navbar
-                headertitle="Our Best Facultys"
-                headerdesc="We change many staff in 100 years. But all are Supportive."
+              displayon = ""
+              headertitle="Our Best Facultys"
+              headerdesc="We change many staff in 100 years. But all are Supportive."
               />
               <Teachers />
             </>}
@@ -65,6 +69,7 @@ function App() {
             path='/gallery'
             element={<>
               <Navbar
+              displayon = "none"
                 headertitle="Our Best Facultys"
                 headerdesc="We change many staff in 100 years. But all are Supportive."
               />
@@ -77,8 +82,9 @@ function App() {
             element={<>
               <Navbar
                 headertitle="Contact Us"
+                displayon = ""
                 headerdesc="If you are join with our Journey you can join us"
-              />
+                />
               <Contact/>
             </>}
           />
@@ -88,13 +94,12 @@ function App() {
             element={<>
               <Navbar
                 headertitle="Blogs"
+                displayon = ""
                 headerdesc="Our enjoyable movement will capture in our Blogs"
-              />
+                />
               <Blog />
             </>}
           />
-
-
         </Routes>
         <Footer />
       </BrowserRouter>
