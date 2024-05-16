@@ -52,7 +52,7 @@
     background-color: rgb(240, 236, 232);
     text-align: start;
     margin: 0vh 2.5vw;
-    border-radius: 3vh;
+    border-radius: 4vh 4vh 1vh 1vh;
 }
 .teachercard2{
     width: 20vw;
@@ -65,8 +65,8 @@
     /* margin-top: 4vh; */
 }
 .tc_images{
-    border-radius: 1vh;
-    width: 15vw;
+    border-radius: 3vh 3vh 0 0 ;
+    width: 19vw;
     height: 29vh;
     display: block;
     margin: 0 auto;

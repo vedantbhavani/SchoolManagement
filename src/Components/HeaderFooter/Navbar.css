@@ -39,7 +39,10 @@
 }
 .nav-lists {
   margin: auto 0;
-  margin-right: 8vw;
+  /* margin-right: 8vw; */
+}
+.nav_reg{
+  margin-right: 8vw ;
 }
 .nav-lists a {
   color: rgb(200, 184, 184);

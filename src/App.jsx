@@ -9,6 +9,7 @@ import Teachers from './Components/Teachers_Gallary/Teachers'
 import Blog from './Blogs'
 import Gallery from './Components/Teachers_Gallary/Gallery'
 import Contact from './Contact'
+import Register from './Register'
 
 
 function App() {
@@ -101,6 +102,20 @@ function App() {
               <Blog />
             </>}
           />
+
+          <Route
+            path='/register'
+            element={<>
+              <Navbar
+                headertitle="Blogs"
+                displayon = "none"
+                headerdesc="Our enjoyable movement will capture in our Blogs"
+                />
+              <Register />
+            </>}
+          />
+
+
         </Routes>
         <Footer />
       </BrowserRouter>

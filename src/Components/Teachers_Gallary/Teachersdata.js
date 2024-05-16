@@ -1,15 +1,15 @@
 let teacherdata = [
     {
+        "image": "https://picsum.photos/200",
         "name": "John Doe",
         "subject": "Mathematics",
         "experience": 10,
-        "image": "https://picsum.photos/200"
     },
     {
+        "image": "https://picsum.photos/201",
         "name": "Jane Smith",
         "subject": "English",
         "experience": 8,
-        "image": "https://picsum.photos/201"
     },
     {
         "image": "https://picsum.photos/202",
@@ -108,26 +108,26 @@ let teacherdata = [
         "experience": 4
     },
     {
-        "name": "Edward Young",
         "image": "https://picsum.photos/218",
+        "name": "Edward Young",
         "subject": "Philosophy",
         "experience": 10
     },
     {
-        "name": "Nicole King",
         "image": "https://picsum.photos/219",
+        "name": "Nicole King",
         "subject": "Religious Studies",
         "experience": 8
     },
     {
-        "name": "William Scott",
         "image": "https://picsum.photos/220",
+        "name": "William Scott",
         "subject": "Environmental Science",
         "experience": 12
     },
     {
-        "name": "Michelle Adams",
         "image": "https://picsum.photos/221",
+        "name": "Michelle Adams",
         "subject": "Health Education",
         "experience": 6
     },
@@ -138,8 +138,8 @@ let teacherdata = [
         "experience": 9
     },
     {
-        "name": "Olivia Baker",
         "image": "https://picsum.photos/223",
+        "name": "Olivia Baker",
         "subject": "Culinary Arts",
         "experience": 7
     },
@@ -156,14 +156,14 @@ let teacherdata = [
         "experience": 11
     },
     {
-        "name": "George Cook",
         "image": "https://picsum.photos/226",
+        "name": "George Cook",
         "subject": "Metalworking",
         "experience": 4
     },
     {
-        "name": "Catherine Murphy",
         "image": "https://picsum.photos/227",
+        "name": "Catherine Murphy",
         "subject": "Auto Mechanics",
         "experience": 10
     },
@@ -174,14 +174,14 @@ let teacherdata = [
         "experience": 8
     },
     {
-        "name": "Jennifer Reed",
         "image": "https://picsum.photos/229",
+        "name": "Jennifer Reed",
         "subject": "Graphic Design",
         "experience": 12
     },
     {
-        "name": "Eric Morgan",
         "image": "https://picsum.photos/230",
+        "name": "Eric Morgan",
         "subject": "Web Development",
         "experience": 6
     },

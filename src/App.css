@@ -161,29 +161,30 @@
     outline: none;
     font-size: 3vh;
 }
-.names{
+.con_names{
     display: flex;
     justify-content:space-evenly;
 }
-.email input{
-    width: 30vw;
+.con_email input{
+    width: 34vw;
 }
-.email{
+.con_email{
     margin-left: 2.2vw;
     margin-top: 3vh;
 }
-.numbers input{
-    width: 30vw;
+.con_numbers input{
+    width: 34vw;
 }
-.numbers{
+.con_numbers{
     margin-left: 2.2vw;
     margin-top: 3vh;
 }
-.address{
+.con_address{
     margin-left: 2.2vw;
     margin-top: 3vh;
 }
-.address textarea{
+.con_address textarea{
+    width: 34vw;
     resize: none;
     outline: none;
     font-size: 3vh;
@@ -201,3 +202,124 @@
 }
 
 /* Contact page will finish here */
+
+/* Register page will Start here */
+
+.register_container{
+    padding-top: 10vh;
+    /* background-color: #75b6e0; */
+}
+.reg_title{
+    margin-left: 2vw;
+}
+.mini_title{
+    margin-left: 2vw;
+}
+.reg_box{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    padding: 5vh 0;
+    margin-bottom: -10vh;
+    background-color: rgb(235, 230, 223);
+    justify-content: center;
+}
+.reg-img-main{
+    transform:rotateY(180deg);
+    height: 80vh;
+    width: 45vw;
+}
+.main_register{
+    /* background-color: red; */
+    width: 40vw;
+    margin-left: 5vw;
+}
+.reg_data{
+    width: 40vw;
+    /* background-color: green; */
+    /* box-sizing: border-box; */
+    height: 64vh;
+}
+.reg_data input{
+    outline: none;
+    font-size: large;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2vh 2vw;
+    border: 1px solid gray;
+    /* display: block; */
+    width: 90%;    
+}
+.names{
+    display: flex;
+    justify-content:space-between;
+}
+.names input{
+    width: 42%;
+}
+.numbers{
+    display: flex;
+    margin-top: 0;
+    margin-left: 0;
+    justify-content:space-between;
+}
+.numbers input{
+    width: 42%;
+}
+.genders{
+    margin: 1vh 2vw;
+    display: flex;
+    justify-content:space-between;
+}
+.genders select{
+    outline: none;
+    padding: 5px;
+    width: 44%;  
+    height:7vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;  
+}
+.inner-gender{
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+    /* margin-top: 1vh; */
+    font-size: large;
+    width: 45%;
+    display: flex;
+}
+.inner-gender label{
+    
+    cursor: pointer;
+}
+.inner-gender input{
+    cursor: pointer;
+    width: 1vw;
+    margin: 0;
+    border-radius: 0;
+    margin-right: 0.5vw;
+    margin-bottom: 2vh;
+    justify-content: center;
+}
+.first_gender{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}.submitbtn1{
+    margin: 4vh auto;
+    display: block;
+    padding: 1vh 1.5vw;
+    background-color: #0193DC;
+    border-radius: 5px;
+    font-size: large;
+    border: 0;
+    color: rgb(247, 243, 243);
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.submitbtn1:hover{
+    background-color: #ffff;
+    border: 2px solid #0193DC;
+    color: #0193DC;
+}
+    /* Register page will finish here */

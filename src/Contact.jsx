@@ -3,7 +3,7 @@ const Contact = () =>  {
         <>
             <div className="contact_container">
                 <div className="input_contact_container">
-                    <div className="names">
+                    <div className="con_names">
                         <div className="fname">
                             <p>First Name</p>
                             <input type="text" placeholder="Enter your first name" />
@@ -13,15 +13,15 @@ const Contact = () =>  {
                             <input type="text" placeholder="Enter your last name" />
                         </div>
                     </div>
-                    <div className="email">
+                    <div className="con_email">
                         <p>Email</p>
                         <input type="email" name="email" id="email" placeholder="example@gmail.com" />
                     </div>
-                    <div className="numbers">
+                    <div className="con_numbers">
                         <p>Mobile Number</p>
                         <input type="tel" name="number" id="number" placeholder="123-456-7890" />
                     </div>
-                    <div className="address">
+                    <div className="con_address">
                         <p>Address</p>
                         <textarea name="textarea" id="textarea" cols="40" rows="6" placeholder="Enter your address here"></textarea>
                     </div>

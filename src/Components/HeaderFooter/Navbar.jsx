@@ -25,6 +25,10 @@ const Navbar = (props) => {
                             <NavLink  ref={linkref} to={"/contact"} >Contact Us</NavLink>
                             <NavLink  ref={linkref} to={"/blogs"} >Blogs</NavLink>
                         </div>
+                        <div className="nav-lists nav_reg">
+                            <NavLink  ref={linkref} to={"/register"} >Register</NavLink>
+                            <NavLink  ref={linkref} to={"/register"} >Login</NavLink>
+                        </div>
                     </div>
                     <div className="lowerlower"  style={{display:`${props.displayon}`}}>
                         <p className='title-head'>VS SCHOOL</p>
