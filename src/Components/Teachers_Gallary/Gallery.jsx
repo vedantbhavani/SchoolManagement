@@ -107,6 +107,7 @@ const Gallery = () => {
                             <>
                                 <div className="teachercard2">
                                     <img className="gl_images" src={currElem.image} alt="" />
+                                    <p className="gl_names">{currElem.name}</p>
                                 </div>
                             </>
                         )
