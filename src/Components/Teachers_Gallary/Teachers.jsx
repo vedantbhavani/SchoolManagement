@@ -18,7 +18,6 @@ const Teachers = () => {
         })
         setbtninp(searchmanu)
     }
-
     return (
         <>
             <div className="searchbar">

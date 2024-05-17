@@ -17,7 +17,9 @@ function App() {
 
   return (
     <>
+
       <BrowserRouter>
+    {/* <div className="container"> */}
         {/* <Navbar/> */}
         <Routes>
 
@@ -131,6 +133,7 @@ function App() {
 
         </Routes>
         <Footer />
+    {/* </div> */}
       </BrowserRouter>
     </>
   )
