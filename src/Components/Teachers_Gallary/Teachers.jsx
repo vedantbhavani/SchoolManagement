@@ -30,7 +30,7 @@ const Teachers = () => {
                 <div className="searchbar">
                     <input type="text" placeholder="Search Teacher" onChange={inputchange} value={searchinp} />
                     <select name="experience" value={experiences} onChange={changeexp} id="experience">
-                        <option value="Select">Select</option>
+                        <option>Select</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -42,7 +42,7 @@ const Teachers = () => {
                         <option value="9">9</option>
                         <option value="10">10</option>
                     </select>
-                    <button onClick={() => Displayitems(btninp)}>Search</button>
+                    <button className="searchbtn" onClick={() => Displayitems(btninp)}>Search</button>
                 </div>
             </div>
             <Teacherand key={teacherdata.image} searchinp={btninp} />
