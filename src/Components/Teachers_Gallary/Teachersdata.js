@@ -15,7 +15,7 @@ let teacherdata = [
         "image": "https://www.koimoi.com/wp-content/new-galleries/2023/09/aish.jpg",
         "name": "Aishwarya Rai Bachchan",
         "subject": "Science",
-        "experience": 12
+        "experience": 3
     },
     {
         "image": "https://www.livemint.com/lm-img/img/2024/02/14/1600x900/Deepika_Padukone_BAFTA_2024_Presenter_1707897095641_1707897095805.jpg",
@@ -45,7 +45,7 @@ let teacherdata = [
         "image": "https://images.firstpost.com/uploads/2024/01/Kareena.jpg",
         "name": "Kareena Kapoor Khan",
         "subject": "Physical Education",
-        "experience": 11
+        "experience": 4
     },
     {
         "image": "https://exchange4media.gumlet.io/news-photo/97642-BrandRanveer.jpg",
@@ -69,7 +69,7 @@ let teacherdata = [
         "image": "https://static.tnn.in/thumb/msid-109345703,thumbsize-24222,width-1280,height-720,resizemode-75/109345703.jpg",
         "name": "Anushka Sharma",
         "subject": "Biology",
-        "experience": 12
+        "experience": 1
     },
     {
         "image": "https://img.mensxp.com/media/content/2021/Jan/10_5ffade95011e7.jpeg?w=900&h=618&cc=1",
@@ -99,7 +99,7 @@ let teacherdata = [
         "image": "https://www.radiocity.in/images/uploads/saifbday23main_d.jpg",
         "name": "Saif Ali Khan",
         "subject": "Psychology",
-        "experience": 11
+        "experience": 1
     },
     {
         "image": "https://www.hindustantimes.com/ht-img/img/2024/04/13/1600x900/vidya_balan_1712980590025_1712980590203.jpg",
@@ -123,7 +123,7 @@ let teacherdata = [
         "image": "https://wp.missmalini.com/wp-content/uploads/2020/04/Sonam-Kapoor-Ahuja-4.jpg",
         "name": "Sonam Kapoor Ahuja",
         "subject": "Environmental Science",
-        "experience": 12
+        "experience": 2
     },
     {
         "image": "https://www.healthkart.com/connect/wp-content/uploads/2020/09/john%20abraham.jpg",
@@ -153,7 +153,7 @@ let teacherdata = [
         "image": "https://images.moneycontrol.com/static-mcnews/2024/05/20240511091916_sn.png",
         "name": "Nawazuddin Siddiqui",
         "subject": "Woodworking",
-        "experience": 11
+        "experience": 2
     },
     {
         "image": "https://images.indianexpress.com/2023/07/taapsee-pannu-200_insta.jpg",
@@ -177,7 +177,7 @@ let teacherdata = [
         "image": "https://media.assettype.com/newindianexpress%2F2024-01%2Fb4c070f9-9d4e-4f26-8da1-532969c70994%2Fanimal_ranbir_kapoor.jpg",
         "name": "Ranbir Kapoor",
         "subject": "Graphic Design",
-        "experience": 12
+        "experience": 1
     },
     {
         "image": "https://images.indianexpress.com/2022/07/sonakshi-sinha.jpg",
@@ -207,7 +207,7 @@ let teacherdata = [
         "image": "https://images.news18.com/ibnlive/uploads/2022/07/vicky-kaushal-anees-bazmee-16582467404x3.jpg",
         "name": "Vicky Kaushal",
         "subject": "Veterinary Science",
-        "experience": 11
+        "experience": 3
     },
     {
         "image": "https://m.media-amazon.com/images/M/MV5BMTkzOTgzNzYzMl5BMl5BanBnXkFtZTgwMTI0MzY3OTE@._V1_.jpg",
@@ -231,7 +231,7 @@ let teacherdata = [
         "name": "Sanjay Dutt",
         "image": "https://cdn.zeebiz.com/sites/default/files/2023/07/29/253788-image-1200x900-27.jpg",
         "subject": "Journalism",
-        "experience": 12
+        "experience": 9
     },
     {
         "name": "Janhvi Kapoor",
@@ -274,7 +274,7 @@ let teacherdata = [
         "image": "https://www.informalnewz.com/wp-content/uploads/2023/03/Anil-kapoor.jpg",
         "name": "Anil Kapoor",
         "subject": "Science",
-        "experience": 12
+        "experience": 9
     },
     {
         "name": "Tabu",
@@ -286,7 +286,7 @@ let teacherdata = [
         "name": "Madhuri Dixit",
         "subject": "Art",
         "image": "https://assets.telegraphindia.com/telegraph/2024/Apr/1713609324_madhuri-dixit.jpg",
-        "experience": 15
+        "experience": 2
     },
     {
         "name": "Kajol",
@@ -298,7 +298,7 @@ let teacherdata = [
         "name": "Jethalal Gada",
         "image": "https://www.koimoi.com/wp-content/new-galleries/2020/07/taarak-mehta-ka-ooltah-chashmah-did-you-know-jethalals-character-possess-this-shop-not-gada-electronics-in-original-literature-0001.jpg",
         "subject": "Physical Education",
-        "experience": 11
+        "experience": 1
     },
     {
         "image": "https://origin-staticv2.sonyliv.com/landscape_thumb/tmkoc_landscape_thumbnail_ep06.jpg",
@@ -310,7 +310,7 @@ let teacherdata = [
         "name": "Daya Gada",
         "image": "https://images.indianexpress.com/2022/05/disha-vakani-taarak-1200.jpg",
         "subject": "Computer Science",
-        "experience": 14
+        "experience": 4
     },
     {
         "name": "Tapu Gada",
@@ -322,7 +322,7 @@ let teacherdata = [
         "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2022/02/06/41f4d59d0933fd46d513a25715afdb34_original.jpg?impolicy=abp_cdn&imwidth=720",
         "name": "Atmaram Bhide",
         "subject": "Social Studies",
-        "experience": 13
+        "experience": 2
     },
     {
         "image": "https://www.koimoi.com/wp-content/new-galleries/2020/04/sonalika-joshi-001.jpg",
@@ -346,7 +346,7 @@ let teacherdata = [
         "image": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202209/shyam-pathak_popatlal_fb-7-sixteen_nine.jpg?size=1200:675",
         "name": "Popatlal",
         "subject": "Physics",
-        "experience": 12
+        "experience": 9
     },
     {
         "name": "Goli Hathi",
@@ -364,7 +364,7 @@ let teacherdata = [
         "name": "Anjali Maheta",
         "image": "https://www.bollywoodhungama.com/wp-content/uploads/2020/09/Neha-Mehta-wanted-to-return-to-Taarak-Mehta-Ka-Ooltah-Chashmah-had-even-spoken-to-Asit-Modi.jpeg",
         "subject": "Sociology",
-        "experience": 11
+        "experience": 3
     },
     {
         "name": "Krishnan Iyer ",
@@ -376,7 +376,7 @@ let teacherdata = [
         "name": "Babitaji Gada",
         "image": "https://i.pinimg.com/736x/f8/e8/e7/f8e8e7628f576cb188490666d38da103.jpg",
         "subject": "Sociology",
-        "experience": 11
+        "experience": 4
     }
 ]
 
