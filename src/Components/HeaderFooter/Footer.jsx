@@ -36,9 +36,9 @@ const Footer = () => {
                     <div className="fourthcol">
                         <h3 className="scrtitle">Social Media</h3>
                         <div className="footerimg">
-                            <img src="/src/Components/Homes/images/twitter.png" alt="" />
-                            <img src="/src/Components/Homes/images/facebook.png" alt="" />
-                            <img src="/src/Components/Homes/images/instagram.png" alt="" />
+                            <a target="_vedant" href=""><img src="/src/Components/Homes/images/twitter.png" alt="" /></a>
+                            <a target="_vedant" href="https://www.facebook.com/vedant.bhavani.9"><img src="/src/Components/Homes/images/facebook.png" alt="" /></a>
+                            <a target="_vedant" href="https://www.instagram.com/_vs_life/"><img src="/src/Components/Homes/images/instagram.png" alt="" /></a>
                         </div>
                     </div>
                 </div>

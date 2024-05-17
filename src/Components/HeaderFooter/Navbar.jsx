@@ -27,7 +27,7 @@ const Navbar = (props) => {
                         </div>
                         <div className="nav-lists nav_reg">
                             <NavLink  ref={linkref} to={"/register"} >Register</NavLink>
-                            <NavLink  ref={linkref} to={"/register"} >Login</NavLink>
+                            <NavLink  ref={linkref} to={"/login"} >Login</NavLink>
                         </div>
                     </div>
                     <div className="lowerlower"  style={{display:`${props.displayon}`}}>

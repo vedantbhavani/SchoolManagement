@@ -9,17 +9,17 @@ const Blog = () => {
                         <div className="blogone">
                             <img className="blog-img" src="https://im.rediff.com/movies/2019/jul/23bollywood-teachers8.jpg" alt="" />
                             <p className="blog-title">English Class Funny Movement</p>
-                            <p className="blog-desc">our english class will start after break and we all are not in mood <span>Read more...</span></p>
+                            <p className="blog-desc">our english class will start after break and we all are not in mood and we are excited to play a games in  <span>Read more...</span></p>
                         </div>
                         <div className="blogone">
                             <img className="blog-img" src="https://im.idiva.com/content/2020/Sep/Teachers-Day_THUMB_5f50a446b1a0c.jpg" alt="" />
                             <p className="blog-title">Music Class Masti Time</p>
-                            <p className="blog-desc">our english class will start after break and we all are not in mood <span>Read more...</span> </p>
+                            <p className="blog-desc">Music class was the best class in a day. We are very enjoy on that day. Music class will only start in last <span>Read more...</span></p>
                         </div>
                         <div className="blogone">
                             <img className="blog-img" src="https://im.rediff.com/movies/2019/jul/09teacher6.jpg" alt="" />
                             <p className="blog-title">Biology Class Punishment</p>
-                            <p className="blog-desc">our english class will start after break and we all are not in mood <span>Read more...</span></p>
+                            <p className="blog-desc">Biology class was a full of Discipline and punishment, but biology subject marks higher in every exam and  <span>Read more...</span></p>
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,6 @@ const Blog = () => {
                         <a target="_vedant" href="https://en.wikipedia.org/wiki/Money_Heist"><button className="part2_btn">Read More</button></a>
                     </div>
                 </div>
-
-
                 <div className="thiredblog">
                     <div className="blogone">
                         <img className="blog-img" src="https://im.rediff.com/movies/2019/jul/23bollywood-teachers8.jpg" alt="" />

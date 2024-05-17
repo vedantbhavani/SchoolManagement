@@ -41,7 +41,10 @@ const Register = () => {
                                     <option value="department">Arts</option>
                                 </select>
                             </div>
+                            <div className="reg_btns">
+                            <button type="reset" className="resetbtn1">Reset</button>
                             <button type="submit" className="submitbtn1">Register</button>
+                            </div>
                         </div>
                     </div>
                 </div>
