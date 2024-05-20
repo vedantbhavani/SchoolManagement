@@ -19,7 +19,9 @@
   padding-left: 1vw;
   outline: none;
   font-weight: bold;
-  border: 2px solid grey;
+  border: none;
+  font-size: large;
+  border-bottom: 2px solid grey;
 }
 .teacherdata {
   display: flex;
@@ -42,14 +44,11 @@
   transform: translateX(0);
 }
 .searchbar {
-    width: 40vw;
+    width: 27vw;
     margin: 3vh auto;
     display: flex;
-    justify-content: space-between;
-}
-#experience{
-    margin-left: 3vw;
-}
+  }
+
 .searchbtn{
     margin: 0 auto;
     display: block;

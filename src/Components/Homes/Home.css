@@ -89,16 +89,16 @@
 
 /* Gallery Start here */
 .gallery-title{
-    margin: 10vh 0 3vh 3vw;
+    margin: 6vh 0 6vh 10vw;
 }
 .gallery-items{
-    margin: 1vh 3vw;
+    margin: 0 10vw;
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 15px;
 }
 .gallery-items img{
-    width: 30vw;
+    width: 25vw;
     height: 40vh;
 }
 

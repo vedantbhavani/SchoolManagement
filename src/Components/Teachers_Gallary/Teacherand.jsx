@@ -2,7 +2,6 @@
 import { useRef } from "react";
 import teacherdata from "./Teachersdata";
 
-
 const Teacherand = ({ searchinp }) => {
     const sliderref = useRef(null);
     let index = 1;
@@ -13,7 +12,6 @@ const Teacherand = ({ searchinp }) => {
     const dot5 = useRef(null)
     const dot6 = useRef(null)
     const dot7 = useRef(null)
-
 
     const newfunc = () => {
         switch (index) {
@@ -63,7 +61,6 @@ const Teacherand = ({ searchinp }) => {
                 dot6.current.style.backgroundColor = "transparent"
                 dot7.current.style.backgroundColor = "transparent"
                 break;
-
             default:
                 console.log("none print");
                 break;

@@ -7,7 +7,6 @@ const Home = () => {
         <div className="home-container">
             <div className="box1">
                 <img className='box1img' src="https://images.news18.com/ibnlive/uploads/2016/09/boman-iranai.jpg" alt="Viru Viru Sahastrabudhhe" />
-                {/* <img className='box1img' src="https://www.venkateshwaragroup.in/vgiblog/wp-content/uploads/2022/09/Untitled-design-2-1.jpg" alt="Viru Viru Sahastrabudhhe" /> */}
                 <div className="box1data">
                     <p className="box1title">Viru Sahastrabudhhe</p>
                     <p className="box1minititle">Principal</p>

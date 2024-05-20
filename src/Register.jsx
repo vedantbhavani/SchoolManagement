@@ -13,6 +13,7 @@ const Register = () => {
                         <h2 className="reg_title">Register Form</h2>
                         <p className="mini_title">Already have an account? Login</p>
                         <div className="reg_data">
+                            <form action="post">
                             <div className="names">
                                 <input type="text" placeholder="First Name *" />
                                 <input type="text" placeholder="Last Name *" />
@@ -34,17 +35,18 @@ const Register = () => {
                                         <label htmlFor="fmale">Female</label>
                                     </div>
                                 </div>
-                                <select name="Departments" id="Departments" aria-placeholder="Department">
-                                    <option value="department">Select</option>
-                                    <option value="department">Commerce</option>
-                                    <option value="department">Science</option>
-                                    <option value="department">Arts</option>
+                                <select name="Departments" id="Departments">
+                                    <option value="null">Select</option>
+                                    <option value="Commerce">Commerce</option>
+                                    <option value="Science">Science</option>
+                                    <option value="Aarts">Aarts</option>
                                 </select>
                             </div>
                             <div className="reg_btns">
                             <button type="reset" className="resetbtn1">Reset</button>
                             <button type="submit" className="submitbtn1">Register</button>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
