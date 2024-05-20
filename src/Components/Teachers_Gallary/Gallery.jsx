@@ -4,6 +4,7 @@ import { useRef } from "react";
 
 const Gallery = () => {
     let index = 1;
+    let indexnumber = 1
     const sliderref = useRef(null);
     const dot1 = useRef(null)
     const dot2 = useRef(null)
@@ -13,7 +14,7 @@ const Gallery = () => {
     const dot6 = useRef(null)
     const dot7 = useRef(null)
     const newfunc = () => {
-        switch (index) {
+        switch (indexnumber) {
             case 0:
                 dot7.current.style.backgroundColor = "transparent"
                 dot1.current.style.backgroundColor = "gray"
@@ -73,21 +74,24 @@ const Gallery = () => {
                 console.log("genius");
     }
     const gopreviosslide = () => {
+        indexnumber--
         sliderref.current.style.transform = `translateX(-${(index - 2) * 75}vw)`
         index--
         newfunc()
     }
-    
+
     const getfirstside = () => {
+        indexnumber = 1
         sliderref.current.style.transform = `translateX(${0}vw)`
         index = 1
     }
-
     const gonextslide = () => {
+        indexnumber++
         sliderref.current.style.transform = `translateX(-${index * 75}vw)`
         index++
     }
     const maxrightside = () => {
+        indexnumber = 7
         sliderref.current.style.transform = `translateX(-${(teacherdata.length - 57) * 75}vw)`
         index = teacherdata.length - 56;
     }
@@ -125,10 +129,8 @@ const Gallery = () => {
                     <div className="dots" ref={dot6}></div>
                     <div className="dots" ref={dot7}></div>
                 </div>
-
                 <button className="btns next-slide" onClick={nextslide}> <img src="/src/Components/Teachers_Gallary/arrow.png" className="btnimg" alt="" /></button>
             </div>
-        
         </>
     )
 }

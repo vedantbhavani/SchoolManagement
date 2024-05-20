@@ -144,7 +144,6 @@
 }
 .input_contact_container {
   width: 40vw;
-  /* margin: 0 auto; */
   background-color: aliceblue;
   margin-top: 2vh;
   padding: 2vh;
@@ -206,7 +205,6 @@
 
 .register_container {
   padding-top: 10vh;
-  /* background-color: #75b6e0; */
 }
 .reg_title {
   margin-left: 2vw;
@@ -229,7 +227,6 @@
   width: 45vw;
 }
 .main_register {
-  /* background-color: red; */
   width: 40vw;
   margin-left: 5vw;
 }
@@ -240,8 +237,6 @@
 }
 .reg_data {
   width: 40vw;
-  /* background-color: green; */
-  /* box-sizing: border-box; */
   height: 64vh;
 }
 .reg_data input {
@@ -251,7 +246,6 @@
   border-radius: 4px;
   margin: 2vh 2vw;
   border: 1px solid gray;
-  /* display: block; */
   font-weight: bold;
   width: 90%;
 }
