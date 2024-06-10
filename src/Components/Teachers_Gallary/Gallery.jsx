@@ -102,6 +102,7 @@ const Gallery = () => {
     const previosslide = () => {
         index <= 1 ? maxrightside() : gopreviosslide()
     }
+    
     return (
         <>
             <div className="Gallerycontainer">

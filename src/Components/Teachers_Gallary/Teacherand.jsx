@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useRef } from "react";
 import teacherdata from "./Teachersdata";
+import { Link } from "react-router-dom";
 
 const Teacherand = ({ searchinp }) => {
+    const displayref = useRef(null)
     const sliderref = useRef(null);
     let index = 1;
     const dot1 = useRef(null)
@@ -103,6 +105,7 @@ const Teacherand = ({ searchinp }) => {
                         searchinp.map((currElem) => {
                             return (
                                 <>
+                                <Link className="teacherdatalink" to={""}>
                                     <div className="teachercard">
                                         <img className="tc_images" src={currElem.image} alt="" />
 
@@ -112,12 +115,13 @@ const Teacherand = ({ searchinp }) => {
 
                                         <p className="tc_data tc_experience"><b> Experience : </b><span className="innerexp">{currElem.experience}</span></p>
                                     </div>
+                                </Link>
                                 </>
                             )
                         })
                     }
                 </div>
-                <div className="Allbtns">
+                <div className="Allbtns" ref={displayref}>
                     <button className="btns pre-slide" onClick={previosslide}> <img src="/src/Components/Teachers_Gallary/arrow.png" className="btnimg" alt="" /></button>
                     <div className="innerbtns">
                         <div className="dots" ref={dot1}></div>
@@ -136,4 +140,4 @@ const Teacherand = ({ searchinp }) => {
     )
 }
 
-export default Teacherand;
+export default Teacherand ;

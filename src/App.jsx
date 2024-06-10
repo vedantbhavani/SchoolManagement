@@ -11,6 +11,7 @@ import Gallery from './Components/Teachers_Gallary/Gallery'
 import Contact from './Contact'
 import Register from './Register'
 import Login from './Login'
+import FullTeacher from './Components/Teachers_Gallary/FullTeacher'
 
 
 function App() {
@@ -19,19 +20,15 @@ function App() {
     <>
 
       <BrowserRouter>
-    {/* <div className="container"> */}
-        {/* <Navbar/> */}
         <Routes>
-
           <Route
             path='/'
             element={<>
               <Navbar
-              displayon = ""
-              headertitle="Welcome To My VS School."
+                displayon=""
+                headertitle="Welcome To My VS School."
               />
-              <Home activeClassName = "selected"/>
-
+              <Home activeClassName="selected" />
             </>}
           />
 
@@ -39,10 +36,10 @@ function App() {
             path='/home'
             element={<>
               <Navbar
-              displayon = ""
+                displayon=""
                 headertitle="Welcome To My VS School."
               />
-              <Home  activeClassName = "selected"/>
+              <Home activeClassName="selected" />
             </>}
           />
 
@@ -50,11 +47,11 @@ function App() {
             path='/about'
             element={<>
               <Navbar
-                displayon = ""
+                displayon=""
                 headertitle="About Us"
                 headerdesc="This school is 99 years old. We are celebrate a 100 years. Next year We are make a new School after celebration."
-                />
-              <About  activeClassName = "selected"/>
+              />
+              <About activeClassName="selected" />
             </>}
           />
 
@@ -62,11 +59,11 @@ function App() {
             path='/teachers'
             element={<>
               <Navbar
-              displayon = ""
-              headertitle="Our Best Facultys"
-              headerdesc="We change many staff in 100 years. But all are Supportive."
+                displayon=""
+                headertitle="Our Best Facultys"
+                headerdesc="We change many staff in 100 years. But all are Supportive."
               />
-              <Teachers  activeClassName = "selected"/>
+              <Teachers activeClassName="selected" />
             </>}
           />
 
@@ -74,11 +71,11 @@ function App() {
             path='/gallery'
             element={<>
               <Navbar
-              displayon = "none"
+                displayon="none"
                 headertitle="Our Best Facultys"
                 headerdesc="We change many staff in 100 years. But all are Supportive."
               />
-              <Gallery/>
+              <Gallery />
             </>}
           />
 
@@ -87,10 +84,10 @@ function App() {
             element={<>
               <Navbar
                 headertitle="Contact Us"
-                displayon = ""
+                displayon=""
                 headerdesc="If you are join with our Journey you can join us"
-                />
-              <Contact/>
+              />
+              <Contact />
             </>}
           />
 
@@ -99,9 +96,9 @@ function App() {
             element={<>
               <Navbar
                 headertitle="Blogs"
-                displayon = ""
+                displayon=""
                 headerdesc="Our enjoyable movement will capture in our Blogs"
-                />
+              />
               <Blog />
             </>}
           />
@@ -111,9 +108,9 @@ function App() {
             element={<>
               <Navbar
                 headertitle="Blogs"
-                displayon = "none"
+                displayon="none"
                 headerdesc="Our enjoyable movement will capture in our Blogs"
-                />
+              />
               <Register />
             </>}
           />
@@ -122,18 +119,27 @@ function App() {
             path='/login'
             element={<>
               <Navbar
+                displayon="none"
                 headertitle="Blogs"
-                displayon = "none"
                 headerdesc="Our enjoyable movement will capture in our Blogs"
-                />
+              />
               <Login />
             </>}
           />
 
-
+          <Route
+            path='/teacher-data'
+            element={<>
+              <Navbar
+                displayon="none"
+                headertitle="Our Best Facultys"
+                headerdesc="We change many staff in 100 years. But all are Supportive."
+              />
+              <FullTeacher />
+            </>}
+          />
         </Routes>
         <Footer />
-    {/* </div> */}
       </BrowserRouter>
     </>
   )

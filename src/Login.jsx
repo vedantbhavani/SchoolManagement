@@ -2,7 +2,6 @@ const Login = () => {
 
     return (
         <>
-
             <div className="register_container">
                 <div className="reg_box">
                     <div className="reg-img">

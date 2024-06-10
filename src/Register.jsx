@@ -1,14 +1,25 @@
-const Register = () => {
+import { useState } from "react";
 
+const Register = () => {
+    const [user , setuser] = useState("")
+    const [pass , setpass] = useState("")
+
+    const userwrite = (e) => {
+        setuser(e.target.value)
+    }
+    const passwrite = (e) => {
+        setpass(e.target.value)
+    }
+    const dataregister = () => {
+        // btn click
+    }
     return (
         <>
-
             <div className="register_container">
                 <div className="reg_box">
                     <div className="reg-img">
                         <img src="https://s3-alpha-sig.figma.com/img/1dab/af5c/853b90fe8b682fd1db7b37e3af58aa23?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g982yQyktggt1-IrtWE8DYBz8U7mi3Oi-vgDimN26M5FpS25yooI~dtoaf1L17iv9~K3eUHyhkbrjg6A~IqkV-Sw0JdklMdejWkzNeZ7qPtveDcmemSTOXEtP93MN3aFlzIkgDwOhFtufcOJT2vpkGbAV87P4iqR43sic-EWlw9tPatKODnUrOtFXipV6kNVlM5Ax1qssSNzs9J0hrcWvpFB4OImU1-JMLKZds8RwvN~fogx5P1plRHY~WXWvV6YBstEeKbSvesp2Mncm43qyZMornVWUaiG2beyXBroQPSs1DWZAIIKwRkYVpmm5RaCLSXeOQFxLWVSDwYPH6doAg__" className="reg-img-main" alt="Register image" />
                     </div>
-
                     <div className="main_register">
                         <h2 className="reg_title">Register Form</h2>
                         <p className="mini_title">Already have an account? Login</p>
@@ -18,8 +29,8 @@ const Register = () => {
                                 <input type="text" placeholder="First Name *" />
                                 <input type="text" placeholder="Last Name *" />
                             </div>
-                            <input type="email" name="email" id="email" placeholder="Enter Email *" />
-                            <input type="email" name="email" id="email" placeholder="Confirm Email *" />
+                            <input type="text" value={user} name="username" onChange={userwrite} id="username" placeholder="Different Username *" />
+                            <input type="password" value={pass} name="password"  onChange={passwrite} id="password" placeholder="Password *" />
                             <div className="numbers">
                                 <input type="tel" name="number" id="number" placeholder="Mobile Number *" />
                                 <input type="number" name="number" id="number" placeholder="Token *" />
@@ -44,7 +55,7 @@ const Register = () => {
                             </div>
                             <div className="reg_btns">
                             <button type="reset" className="resetbtn1">Reset</button>
-                            <button type="submit" className="submitbtn1">Register</button>
+                            <button type="submit" className="submitbtn1" onClick={dataregister}>Register</button>
                             </div>
                             </form>
                         </div>

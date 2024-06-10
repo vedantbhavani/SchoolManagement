@@ -44,20 +44,20 @@
   transform: translateX(0);
 }
 .searchbar {
-    width: 27vw;
-    margin: 3vh auto;
-    display: flex;
-  }
+  width: 27vw;
+  margin: 3vh auto;
+  display: flex;
+}
 
-.searchbtn{
-    margin: 0 auto;
-    display: block;
-    padding: 1vh 1.5vw;
-    background-color: #0193DC;
-    border-radius: 5px;
-    border: 0;
-    color: rgb(247, 243, 243);
-    font-weight: bold;
+.searchbtn {
+  margin: 0 auto;
+  display: block;
+  padding: 1vh 1.5vw;
+  background-color: #0193dc;
+  border-radius: 5px;
+  border: 0;
+  color: rgb(247, 243, 243);
+  font-weight: bold;
 }
 .teachercard {
   gap: 10px;
@@ -69,6 +69,9 @@
   margin: 1.8vh 2.5vw;
   border-radius: 4vh 4vh 1vh 1vh;
 }
+.teachercard:hover {
+  scale: 1.05;
+}
 .teachercard2 {
   width: 20vw;
   filter: drop-shadow(1px 1px 10px);
@@ -77,15 +80,15 @@
   text-align: start;
   margin: 1vh 2.5vw;
   border-radius: 3vh;
-  /* margin-top: 4vh; */
 }
 .tc_images {
   border-radius: 3vh 3vh 0 0;
   width: 19vw;
-  height: 29vh;
+  height: 31vh;
   display: block;
   margin: 0 auto;
   margin-top: 1vh;
+  padding-top: 1vh;
 }
 .gl_names {
   text-align: center;
@@ -150,4 +153,16 @@
   display: flex;
   justify-content: space-evenly;
   width: 19vw;
+}
+.teacherdatalink {
+  text-decoration: none;
+  color: black;
+}
+
+/* Teacher data start here ////////////////////////*************************************/
+.teacher-data-container {
+  padding-top: 10vh;
+  background-color: red;
+  width: 85vw;
+  margin: 0 auto;
 }

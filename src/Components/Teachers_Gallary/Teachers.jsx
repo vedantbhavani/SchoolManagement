@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import teacherdata from "./Teachersdata";
+// import teacherdata from "./Teachersdata";
+import teacherdata from './Teacherdatanew';
 import './Teacherdata.css'
 import { useState } from "react";
 import Teacherand from "./Teacherand";
@@ -18,7 +19,6 @@ const Teachers = () => {
         })
         setbtninp(searchmanu)
     }
-
     return (
         <>
             <div className="teacher_inputs">
@@ -27,7 +27,7 @@ const Teachers = () => {
                     <button className="searchbtn" onClick={() => Displayitems(btninp)}>Search</button>
                 </div>
             </div>
-            <Teacherand key={teacherdata.image} searchinp={btninp} />
+            <Teacherand key={teacherdata.image} searchinp={btninp} dotdiv />
         </>
     )
 }
