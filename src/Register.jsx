@@ -13,6 +13,7 @@ const Register = () => {
     const dataregister = () => {
         // btn click
     }
+
     return (
         <>
             <div className="register_container">

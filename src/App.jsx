@@ -12,6 +12,8 @@ import Contact from './Contact'
 import Register from './Register'
 import Login from './Login'
 import FullTeacher from './Components/Teachers_Gallary/FullTeacher'
+import Adminnav from './Components/Admins/Adminnav'
+import Admin from './Components/Admins/Admin'
 
 
 function App() {
@@ -136,6 +138,19 @@ function App() {
                 headerdesc="We change many staff in 100 years. But all are Supportive."
               />
               <FullTeacher />
+            </>}
+          />
+
+          <Route
+            path='/admin'
+            element={<>
+              {/* <Navbar
+                displayon="none"
+                headertitle="Blogs"
+                headerdesc="Our enjoyable movement will capture in our Blogs"
+              /> */}
+              <Adminnav />
+              <Admin />
             </>}
           />
         </Routes>

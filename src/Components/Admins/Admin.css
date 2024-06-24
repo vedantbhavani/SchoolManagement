@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue ;
+    margin: 0;
+    padding: 0;
+}
+.adminnavbar{
+    display: flex;
+    height: 11vh;
+    justify-content: space-between;
+}
+.leftside{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:2vw ;
+    padding: 1vh 3vw;
+    width: 90%;
+}
+.userimg{
+    width: 3vw;
+}
+.leftside img{
+    width: 3.5vw;
+    border-radius: 4vh;
+}
+.leftside p{
+    margin-top: 2vh;
+}
+.rightside p{
+    margin-right: 2vw ;
+    margin-top: 2vh;
+}
+.rightside{
+    width: 13%;
+    margin-right:0vw ;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content:space-around;
+}
